@@ -17,6 +17,8 @@ echo %line% > env.bat
 SET import=print("GoodBye World!!!")
 echo %import% > %pName%.py
 echo file created 
-@pause
+cls
+env.bat
+
 
 
