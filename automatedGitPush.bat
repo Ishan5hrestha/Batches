@@ -7,7 +7,6 @@ git commit -m "%message%"
 git pull origin main
 git push origin main
 echo Push Successful
-pause
 
 
 
