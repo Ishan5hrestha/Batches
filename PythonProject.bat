@@ -1,5 +1,7 @@
+@echo off
 set /p pName=Name of Project:
 title Python Project
+cd\
 E:
 cd Projects_Python
 Rem tyo nam vako file raixa vane kei nagarne niskine
@@ -7,7 +9,7 @@ md %pName% || exit ISN'T 0
 cd %pName%
 python -m venv venv
 echo Virtual Environment setup complete
-
+echo Activated
 python.exe -m pip install --upgrade pip
 echo pip upgraded
 
